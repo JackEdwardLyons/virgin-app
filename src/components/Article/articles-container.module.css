@@ -1,0 +1,22 @@
+.more-articles-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 5rem auto;
+}
+
+.more-articles-btn {
+  background: var(--color-brand-white);
+  padding: 1rem 2rem;
+  color: var(--color-brand-link);
+  border: 1px solid var(--color-brand-link);
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.more-articles-btn:hover {
+  background: var(--color-brand-link);
+  color: var(--color-brand-white);
+  transition: 0.2s ease;
+}

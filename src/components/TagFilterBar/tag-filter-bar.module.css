@@ -1,0 +1,31 @@
+.tag-btn {
+  background: var(--color-brand-white);
+  cursor: pointer;
+  border: 2px solid var(--color-brand-primary);
+  border-radius: 0.75rem;
+  color: var(--color-brand-primary);
+  font-family: var(--app-font-family);
+  font-weight: 600;
+  padding: 0.175rem 0.75rem;
+  min-width: max-content;
+  transition: 0.2s ease;
+}
+
+.tag-btn:hover,
+.tag-btn:focus-visible,
+.tag-btn.selected {
+  background: var(--color-brand-primary);
+  color: var(--color-brand-white);
+}
+
+.tags-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: scroll;
+}
+
+.tags-list__item {
+  border-radius: 0.25rem;
+}
